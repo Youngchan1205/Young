@@ -1,0 +1,59 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- Young created the buttons and the user login page -->
+<head>
+<title>My Recipes</title>
+<link rel="stylesheet" type="text/css" href="Login.css" title="style" />
+ <script type = "text/javascript"  src = "signin.js" >
+	 </script>
+</head>
+<body>
+
+<!-- Start of user login (Young)-->
+<div class = "LogBar">
+<h1> Welcome to My Recipe</h1>
+<form action = "login_DB.php" method="post">
+
+<p>
+<!-- Username Input (Young)-->
+<label>
+Username: <input type = "text" name = "uname"  id = "id" size = "25" maxlength="25" />
+</label>
+
+<br />
+
+<!-- User password (Young)-->
+<label>
+Password: <input type = "password" name = "mypass" size = "10" maxlength="10" /><br />
+</label>
+
+<br />
+
+<!-- Submit and Reset Button (Tanner) -->
+
+<input type = "submit" name = "submit" value="log in" />
+<input type = "reset" value="Reset form" />
+</p>
+</form>
+<form action = "signin.html" method = "post">
+<p>
+<input type = "submit"  value = "sign up" />
+</p>
+</form>
+ </div>
+<!-- End of user login-->
+
+<!-- Footer (Tanner) -->
+<div class ="footer">
+	<p>Copyright (c) 2018 My Recipe</p>
+	<br /> 
+	<p>Asian Group IS 448</p>
+	<br />
+	<p>All rights reserved</p>        
+</div>
+
+</body>
+</html>
+  

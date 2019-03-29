@@ -1,0 +1,22 @@
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px bold;
+	font-weight:bold;
+    width: 800px;
+    margin: 1em auto;
+    background-image: url("images/whitewood.jpg");
+}
+
+.div2 {
+	margin: 15px;
+	word-wrap: break-word;
+    border: 1px solid black;
+	text-align:center;
+	border-radius:5px;
+}
+h1{
+	text-decoration: underline;
+	color: gray;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 20px bold;
+}

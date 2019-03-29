@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" 
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- Hao, Tanner, Sophia made this page -->
+<head>
+<title>Tips and Tricks</title>
+<link rel="stylesheet" type="text/css" href="myrecipes.css" title="style" />
+</head>
+
+<!-- Food Catergories (Hao)-->
+<body>
+	<h1> My Recipes.com </h1>
+<!--Dropdown menu (Tanner, Sophia, Hao, Young-->
+</form>
+	 <form>
+	<fieldset>
+		<p>
+		 <div class="navbar"> 
+			 <a href="main_myrecipes.html"> Home &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>  
+			 <div class="dropdown">
+			 <button class ="dropbtn"> Example Recipes &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			 <i class="fa fa-caret-down"></i>
+			 </button>
+			 <div class="dropdown-content">
+				 <a href="appetizers.html"> Apptizers</a> 
+				 <a href="chicken.html"> Chicken</a>
+				 <a href="steak.html"> Steak</a>
+				 <a href="pasta.html"> Pasta</a>
+				 <a href="seafood.html"> Seafood</a>
+				 <a href="desserts.html"> Desserts</a>
+			 </div>
+			</div>
+
+			<div class="dropdown">
+				<button class ="dropbtn"> My Recipes</button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<i class="fa fa-caret-down"></i>
+				<div class="dropdown-content">
+					<a href="my_recipes.html"> Add Recipes</a>
+					<a href="my_recipes.php"> View Recipes</a>
+				
+				</div>
+			 </div>
+			<div class="dropdown">
+				<button class ="dropbtn"> Tips and Tricks</button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<i class="fa fa-caret-down"></i>
+				<div class="dropdown-content">
+					<a href="tips_and_tricks.html"> Submit Tips and Tricks</a>
+					<a href="tips_and_tricks_view.php"> View Tips and Tricks</a>
+		
+				</div>
+			 </div>
+			<a href="login.html"> Log Out  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+			</div>          
+	 </fieldset>
+	<br />
+ </form>
+<!-- Tanner developed this feature-->
+<h1> Tips and Tricks </h1>
+
+<div class = "tips">
+<p> Want to sharpen your cutting skills? Don't know how to cut an onion without tearing up? The community is here to help! Ask away!</p>
+</div>
+<form name="make_blog" action="tips_and_tricks.php" id="usrform" method = "post">
+	<p>
+	  <strong>Your username</strong>: <input type="text" name="usrname" placeholder="" style="font-family:Arial, Helvetica, sans-serif;font-size:1.5em;border-radius:4px;">
+	  <input type="submit" value="post" style="font-size: 20px;border:2px solid white;background-color:white;color:black;border-radius:4px;"><br />
+	  <div class="col-20">
+	  <label for="tips">Tips and Tricks:</label></div><textarea rows="8" cols="60" name="upost" id="comments" placeholder="" style="font-family:Arial, Helvetica, sans-serif;font-size:18px;background-color:#f8f8f8;padding:2%;border-radius:4px;">
+
+	  </textarea>
+	</p>
+</form>
+	

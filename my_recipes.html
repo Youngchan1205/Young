@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" 
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- Hao, Tanner, Sophia made this page -->
+<head>
+<title>My Recipes</title>
+<link rel="stylesheet" type="text/css" href="myrecipes.css" title="style" />
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/prototype/1.6.0.3/prototype.js"></script>
+<script type="text/javascript" src="my_recipes_check.js"></script>
+</head>
+
+<!-- Food Catergories (Hao)-->
+<body>
+	<h1> My Recipes.com </h1>
+
+	 <form>
+	<fieldset>
+		<p>
+		 <div class="navbar"> 
+			 <a href="main_myrecipes.html"> Home &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>  
+			 <div class="dropdown">
+			 <button class ="dropbtn"> Example Recipes &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			 <i class="fa fa-caret-down"></i>
+			 </button>
+			 <div class="dropdown-content">
+				 <a href="appetizers.html"> Apptizers</a> 
+				 <a href="chicken.html"> Chicken</a>
+				 <a href="steak.html"> Steak</a>
+				 <a href="pasta.html"> Pasta</a>
+				 <a href="seafood.html"> Seafood</a>
+				 <a href="desserts.html"> Desserts</a>
+			 </div>
+			</div>
+
+			<div class="dropdown">
+				<button class ="dropbtn"> My Recipes</button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<i class="fa fa-caret-down"></i>
+				<div class="dropdown-content">
+					<a href="my_recipes.html"> Add Recipes</a>
+					<a href="my_recipes_view.php"> View Recipes</a>
+				
+				</div>
+			 </div>
+			<div class="dropdown">
+				<button class ="dropbtn"> Tips and Tricks</button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<i class="fa fa-caret-down"></i>
+				<div class="dropdown-content">
+					<a href="tips_and_tricks.html"> Submit Tips and Tricks</a>
+					<a href="tips_and_tricks_view.php"> View Tips and Tricks</a>
+				</div>
+			 </div>
+			<a href="login.html"> Log Out  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+			</div>          
+	 </fieldset>
+	<br />
+ </form>
+<!-- Tanner developed this feature-->
+<h1> Create Your Own Recipes </h1>
+
+<form name="make_blog" action="my_recipes.php" id="usrform" method = "post">
+	<p>
+		<strong>Recipe name</strong>: <input type="text" name="usrname" id ="usrname" style="font-family:sans-serif;font-size:1.5em;border-radius:4px;"
+		onblur = "validateUsername(this.value)" /><span id="msgbox" document.getElementById('boldStuff').innerHTML = 'Fred Flinstone'></span><br/>
+		<br/>
+		<div class="col-25">
+		<label for="Desc">Description/Ingredients:</label></div> <textarea name="upost" id="comments" placeholder="Description/Ingredients" style="font-family:sans-serif;font-size:16px;background-color:#f8f8f8;padding:5px 5px;border:2px solid #ccc;width:300px;height:150px;border-radius:4px;resize:vertical;">
+		</textarea><br/>
+		<div class="col-25">
+		<label for="steps">Steps:</label></div>
+		<textarea name="usteps" id="comments" placeholder="Steps.." style="font-family:sans-serif;font-size:16px;background-color:#f8f8f8;padding:5px 5px;border:2px solid #ccc;width:300px;height:150px;border-radius:4px;resize:vertical;">
+		</textarea><br/>
+		<p><input type="submit" value="Create" style="font-size: 20px;border:2px solid white;background-color:white;color:black;border-radius:4px;"><br />
+	</p>
+	</p>
+</form>
+	

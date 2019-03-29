@@ -1,0 +1,44 @@
+body {
+	width: 600px;
+    margin: 200px auto;
+    border: 10px #D8C858 solid;
+    padding: 0.5em;
+	text-align: center;
+	max-height:900px;
+	background-color: #23E3DC;
+	background-image: url("images/cookies.jpg");
+	background-size: cover;	
+	
+}
+.LogBar{
+	border: 1px solid rgb(255,255,255);
+    border: 1px solid rgba(255,255,255, 0);
+    background-color: rgba(255, 255, 255, 0.75);
+	
+}
+.submitBar{
+	font-size:20px;
+	font-weight:bold;
+}
+.error{
+	font-size:40px;
+	font-weight:bold;
+}
+input[type=submit] {
+	width: 200px;
+    height: 50px;
+    transform: translateX(17%);
+	
+}
+input[type=reset] {
+	width: 200px;
+    height: 50px;
+    transform: translateX(17%);
+}
+
+input{
+	width: 200px;
+    height: 20px;
+	
+    
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" 
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- Hao, Tanner, Sophia made this page -->
+<head>
+<title>My Recipes</title>
+<link rel="stylesheet" type="text/css" href="signin.css" title="style" />
+ <script type = "text/javascript"  src = "signin.js" >
+	 </script>
+</head>
+
+<body>
+<div class = "LogBar">
+<form action = "login_submit.php" method = "post" >
+ <dl>
+    <dt><strong>ID</strong></dt>
+		<dd>
+			<input type="text" name="custID" id="custID" />
+		</dd>
+	 <dt><strong>password</strong></dt>
+		<dd>
+			<input type="password" name="pw" id="passwords" />
+		</dd>
+	<dt><strong> confirm password</strong></dt>
+		<dd>
+			<input type="password" name="password" id="checkpassword" />
+		</dd>		
+	 <dt><strong>name</strong></dt>
+		<dd>
+			<input type="text" name="custName" id="custName" />
+		</dd>
+	<dt><strong>Phone Number (EX:000-000-0000)</strong> </dt>
+		<dd>
+			<input type="text" name="dayTimeNumber" id="phoneNum" />
+		</dd>
+	<dt><strong>e-mail address</strong> </dt>
+		<dd>
+			<input type="text" name="emailaddress" id="email" />
+		</dd>	
+</dl>	
+<p>
+<input type = "submit" value="Submit" id="submitButton"/>
+<input type = "reset" value="Reset" />
+</p>
+</form>
+<form action = "login.html" method = "post" >
+<p>
+<input type = "submit" value="back to log in" />
+</p>
+</form>
+</div>
+</body>
+</html>
+
+
